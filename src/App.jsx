@@ -35,12 +35,14 @@ function App() {
   return (
     <>
       <div>
-        <img
-          src={imageArr[count]}
-          alt=""
-          height="500"
-          className={`fade-image ${fade ? "hide" : ""}`}
-        />
+        <section>
+          <img
+            src={imageArr[count]}
+            alt=""
+            height="500"
+            className={`fade-image ${fade ? "hide" : ""}`}
+          />
+        </section>
         <div>
           {imageArr.map((e, id) => {
             return (
